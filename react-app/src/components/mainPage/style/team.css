@@ -1,0 +1,44 @@
+.team {
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.grid-title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B132A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    justify-content: center;
+    text-align: center;
+    grid-gap: 100px;
+    margin: 5%;
+}
+
+.member-role{
+    margin-top: 15px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.member0, .member3{
+    grid-column: 1;
+}
+.member1, .member4, .member6{
+    grid-column: 2;
+}
+.member2, .member5{
+    grid-column: 3;
+}
