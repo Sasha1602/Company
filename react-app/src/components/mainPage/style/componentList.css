@@ -1,0 +1,7 @@
+.list{
+
+    align-items: center;
+    width: 84em;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
