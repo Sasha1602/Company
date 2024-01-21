@@ -1,0 +1,26 @@
+.section-news > h3 {
+    margin-top: 1em;
+    color: #0B132A;
+    font-size: 30px;
+    line-height: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 2em;
+}
+.news-box {
+    margin: 2em;
+    padding: 2em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.news-box > p {
+    color: #29272A;
+    margin: 35px 4em 4em;
+    font-size: 40px;
+    line-height: 37.5px;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    text-align: center;
+}
