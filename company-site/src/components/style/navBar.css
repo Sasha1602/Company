@@ -1,0 +1,29 @@
+.navBar{
+    max-width: 84em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.mainLogo{
+    max-width: 190px;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-nav-li{
+    display: flex;
+    list-style: none;
+    margin: 0 1.5em;
+}
+
+.navBar ul li a{
+    color: #4F5665;
+    user-select: none;
+    /*color: #29272A;*/
+    font-weight: 400;
+    text-decoration: none;
+}

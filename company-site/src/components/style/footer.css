@@ -1,0 +1,19 @@
+.footer {
+    flex: 0 0 auto;
+}
+
+.footer{
+    padding: 3em 6em 3em 6em;
+    border-top: solid;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+.footer-grid > p {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.125rem;
+}
