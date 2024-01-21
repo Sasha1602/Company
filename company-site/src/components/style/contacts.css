@@ -1,0 +1,29 @@
+.section-contact > h3 {
+    margin-top: 1em;
+    color: #0B132A;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.7em;
+    padding-top: 2em;
+}
+.grid-contact {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-bottom: 3em;
+}
+.grid-contact > div > p {
+    font-family: Montserrat, serif;
+    margin-left: 3em;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.map-box {
+    max-width: 67em;
+    height: 41em;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
