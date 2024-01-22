@@ -10,7 +10,7 @@ export const Info = () => {
         )
     };
     return (
-        <section className="basic-services">
+        <section className="section-info">
             <div className="laptop-box">
                 <img src={info[0].image} className="laptop" alt='laptop'/>
             </div>

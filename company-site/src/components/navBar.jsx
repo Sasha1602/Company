@@ -4,7 +4,7 @@ import {navElement} from './data'
 import './style/navBar.css';
 export const NavBar = () => {
     return (
-        <nav className="navBar" id='home'>
+        <nav className="navBar">
             <Link to='/' className='logoLink'>
                 <img src={navElement[navElement.length-1].image} className="mainLogo" alt='logo-of-company'/>
             </Link>
