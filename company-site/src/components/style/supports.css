@@ -1,0 +1,26 @@
+.section-support > h3 {
+    margin-top: 1em;
+    color: #0B132A;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.7em;
+    padding-top: 2em;
+}
+.support-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2em;
+    padding: 2em;
+    background-color: white;
+    border-radius: 2em;
+}
+.support-div {
+    text-align: center;
+    filter: grayscale(100%);
+}
+.support-div:hover {
+    transition: 0.7s;
+    filter: grayscale(0%);
+}

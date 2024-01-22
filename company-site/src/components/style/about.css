@@ -1,6 +1,6 @@
-/*.section-about {*/
-/*    margin-top: 15em ;*/
-/*}*/
+.section-about {
+    scroll-margin-top: 2em;
+}
 
 .about-box {
     width: 100%;
@@ -38,7 +38,8 @@
 }
 
 .about-logo {
+    text-align: center;
     width: 350px;
-    height: 300px;
+    height: 280px;
     padding: 0 3em;
 }
