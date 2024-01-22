@@ -1,0 +1,88 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12em 0 0;
+}
+
+.textBox{
+    position: relative;
+    margin-left: 1em;
+    max-width: 35em;
+    font-size: 1.2em;
+}
+.textBox-title{
+    color: #0B132A;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.4rem; /* 140% */
+}
+.textBox-text {
+    color: #29272A;
+    margin-top: 2em;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.header-image {
+    display: flex;
+    width: 25em;
+    height: 24em;
+    flex-shrink: 0;
+}
+
+/*-----------Buttons-----------*/
+
+.shadow-button {
+    margin: 5em 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background: rgb(117, 117, 117, 0.03);
+    border-radius: 3em;
+    scroll-margin-top: 0.5em;
+}
+.buttons {
+    display: grid;
+    /*grid-template-columns: 49% 2% 49%;*/
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    display: flex;
+    height: 179px;
+    width: 570px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-in-button{
+    width: 398px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 109.375% */
+    align-items: center;
+}
+
+/*.stick{*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    width: 2px;*/
+/*    height: 112px;*/
+/*    flex-shrink: 0;*/
+/*    stroke-width: 2px;*/
+/*    background: rgb(117, 117, 117, 0.3);*/
+/*}*/
