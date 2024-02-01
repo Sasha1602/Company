@@ -8,7 +8,11 @@ export const About = () => {
                 <div className='text-about'>
                     <p>{about[0].text}</p>
                 </div>
-                <img src={about[0].image} className='about-logo' alt='company-logo'/>
+                <div className='about-logo'>
+                    <img src={about[0].image} alt='company-logo'/>
+                    <img src={about[0].imageText} alt='text-company-logo'/>
+                </div>
+
             </div>
         </section>
     )

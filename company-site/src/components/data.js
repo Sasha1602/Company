@@ -1,8 +1,15 @@
 import neiro from '../assets/neiro.svg';
 import logo from '../assets/logo.svg'
-import logodo from '../assets/logodo.png';
+import group1 from '../assets/logo4.svg'
+import group2 from '../assets/logo3.svg'
 import laptop from '../assets/laptop.png';
 import checkCircle from '../assets/box-check-circle.svg';
+
+import sup1 from '../assets/sup1.png'
+import sup2 from '../assets/sup2.png'
+import sup3 from '../assets/sup3.png'
+import sup4 from '../assets/sup4.png'
+import sup5 from '../assets/sup5.png'
 
 export const navElement = [
     {
@@ -16,10 +23,6 @@ export const navElement = [
     {
         element: 'О компании',
         link: '#company'
-    },
-    {
-        element: 'Новости',
-        link: '#news'
     },
     {
         element: 'Контакты',
@@ -66,7 +69,34 @@ export const about = [
             'степенью гибкости, позволяя настраивать его индивидуально для каждого текстильного предприятия. \n' +
             'Что в свою очередь обеспечивает сокращение времени создания изображений и способствует более \n' +
             'адаптивной реакции на требования рынка.',
-        image: logodo
+        image: group1,
+        imageText: group2
+    }
+];
+
+export const supports = [
+    {
+        image: sup1,
+        link: 'https://fasie.ru/'
+    },
+    {
+        image: sup2,
+        link: 'https://www.isuct.ru/'
+    },
+    {
+        image: sup3,
+        link: 'https://vk.com/moybiznes37'
+    },
+    {
+        image: sup4,
+        link: 'https://univertechpred.ru/'
+    },
+    {
+        image: sup5,
+        link: 'https://vk.com/digit37'
+    },
+    {
+        title: 'Проекты разрабатываются при участии',
     }
 ]
 export const contact = [
@@ -90,7 +120,7 @@ export const footer = [
     },
     {
         leftInfo: 'Полное наименование на английском языке:',
-        rightInfo: 'Neuroprint',
+        rightInfo: 'LLC "Neuroprint"',
     },
     {
         leftInfo: 'ИНН:',

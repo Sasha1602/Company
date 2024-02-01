@@ -10,7 +10,7 @@ export const Header = () => {
     };
     return (
         <>
-            <header className='header'>
+            <header className='header' id='home'>
                 <div className='textBox'>
                     <h2 className='textBox-title'>{header[0].title}</h2>
                     <p className='textBox-text'>{header[0].text}</p>

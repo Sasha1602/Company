@@ -1,9 +1,14 @@
 .navBar{
+    position: fixed;
     max-width: 84em;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em 0;
+    background-color: white;
+    z-index: 100;
+    left: 2em;
+    right: 2em;
 }
 
 .mainLogo{
@@ -12,6 +17,7 @@
 
 .header-nav{
     display: flex;
+    float: right;
 }
 
 .header-nav-li{
@@ -23,7 +29,6 @@
 .navBar ul li a{
     color: #4F5665;
     user-select: none;
-    /*color: #29272A;*/
     font-weight: 400;
     text-decoration: none;
 }
