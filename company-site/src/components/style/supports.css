@@ -1,3 +1,7 @@
+.section-support {
+    scroll-margin-top: 6em;
+}
+
 .section-support > h3 {
     margin-top: 1em;
     color: #0B132A;
