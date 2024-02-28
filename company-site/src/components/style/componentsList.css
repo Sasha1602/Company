@@ -1,8 +1,4 @@
 .body {
-    /*display: flex;*/
-    /*max-width: 84em;*/
-    /*margin: 0em auto;*/
-    /*background-color: #4F5665;*/
     margin: 0 2.5em;
     flex: 1 0 auto;
 }
