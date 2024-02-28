@@ -1,5 +1,5 @@
 .section-contact {
-    scroll-margin-top: 2em;
+    scroll-margin-top: 6em;
 }
 
 .section-contact > h3 {
@@ -22,7 +22,7 @@
     margin-left: 3em;
     font-size: 1.5rem;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
 }
 .map-box {

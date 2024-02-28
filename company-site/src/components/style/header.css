@@ -1,57 +1,82 @@
 .header{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 12em 0 0;
+    padding: 13em 0 0;
 }
 
 .textBox{
     position: relative;
-    margin-left: 1em;
-    max-width: 35em;
-    font-size: 1.2em;
+    max-width: 41em;
+    margin-left: 0.7em;
 }
 .textBox-title{
     color: #0B132A;
-    font-size: 3rem;
+    font-size: 3.125em;
     font-style: normal;
     font-weight: 700;
     line-height: 4.4rem; /* 140% */
+    margin-left: 0.1em;
 }
 .textBox-text {
     color: #29272A;
-    margin-top: 2em;
-    font-size: 24px;
-    line-height: 38px;
-    letter-spacing: 1px;
+    margin-top: 1.4em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 37.5px;
     word-wrap: break-word;
+    letter-spacing: 0.5px;
     text-align: justify;
 }
+
+.textBox button {
+    margin-top: 4em;
+    background-color: black;
+    color: white;
+    border-radius: 0.625em;
+    width: 15.625em;
+    height: 3.75em;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 25px;
+    border: none;
+}
+
+.textBox button:hover {
+    border: 0.35em solid black;
+    background-color: #1f1f1f;
+    transition: 0.5s;
+}
+
 .header-image {
     display: flex;
-    width: 25em;
-    height: 24em;
+    width: 24em;
+    height: 21.8em;
     flex-shrink: 0;
+
 }
 
 /*-----------Buttons-----------*/
 
-.shadow-button {
-    margin: 5em 0 0;
+.box-button {
+    margin: 1em 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    /*max-width: 71.25em;*/
     height: 300px;
-    background: rgb(117, 117, 117, 0.03);
-    border-radius: 3em;
-    scroll-margin-top: 0.5em;
+    background: rgb(253, 253, 253);
+    border-radius: 16em;
+    scroll-margin-top: 3em;
 }
 .buttons {
     display: grid;
-    /*grid-template-columns: 49% 2% 49%;*/
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 49.9% 0.2% 49.9%;
+    /*grid-template-columns: 100fr 1fr 100fr;*/
+    scroll-margin-top: 3em;
+    align-items: center;
 }
 
 .button {
@@ -64,7 +89,7 @@
     align-content: center;
 }
 
-.text-in-button{
+.button > p{
     width: 398px;
     height: 63px;
     flex-shrink: 0;
@@ -77,12 +102,10 @@
     align-items: center;
 }
 
-/*.stick{*/
-/*    display: flex;*/
-/*    position: absolute;*/
-/*    width: 2px;*/
-/*    height: 112px;*/
-/*    flex-shrink: 0;*/
-/*    stroke-width: 2px;*/
-/*    background: rgb(117, 117, 117, 0.3);*/
-/*}*/
+.stick{
+    width: 2px;
+    height: 112px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    background: rgb(117, 117, 117, 0.3);
+}
