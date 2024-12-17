@@ -1,6 +1,6 @@
-import './style/App.css';
-import {ComponentsList} from "./components/list/componentsList";
+import {ComponentsList} from "./apps/landing";
 import {NavBar} from "./components/navBar";
+import './style/App.css';
 
 export default function App() {
   return (
